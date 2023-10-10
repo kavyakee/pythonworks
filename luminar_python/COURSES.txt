@@ -1,0 +1,46 @@
+COURSES
+id(int)
+name(varchar)
+
+
+
+
+
+
+CUISINE
+id(int)
+name(varchar) 
+
+
+
+
+DISH
+id(int)
+name(varchar)
+course_id(int) (courses) 1:m  
+cuisine_id(int)(cuisine) 1:m
+
+
+
+
+DISHVARIENT
+id(int)
+name(varchar)
+weight(int)
+price(int)
+dish_id(int) (dish) 1:m
+
+
+
+
+CUSTOMER
+id(int)
+name(varchar)
+phone(int)
+
+
+ORDERS
+id(int)
+dish_varient_id(int) (dishvarient) m:m
+customer_id(int) (customer) 1:m
+status(varchar) 

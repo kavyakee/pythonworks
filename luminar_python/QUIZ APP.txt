@@ -1,0 +1,31 @@
+QUIZ APP
+
+
+
+SUBJECT
+
+id(int)
+name(varchar)
+
+MODE
+
+id(int)
+name(varchar)
+
+
+QUESTIONS
+
+question_id(int)
+subject_id(int) (subject) 1:m 
+mode_id (int) (mode) 1:m
+question(varchar)
+mark(int)
+
+OPTIONS
+
+option_id(int)
+question_based_ans(varchar)
+question_id(int) (question) 1:m
+is_correct (boolean) 
+
+

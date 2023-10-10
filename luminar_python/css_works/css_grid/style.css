@@ -1,0 +1,36 @@
+.row{
+    width: 80%;
+    min-height: 600px;
+    /* if we use height the contents written within the height will overflow. if we use min-height the content will occuppy inside the specified height */
+    background-color: white(223, 232, 232);
+    border: 1px solid white;
+    display: grid;
+    /* in order to provide columns we use grid */
+    grid-template-columns: 1fr 1fr 1fr;
+    /* each width of column will be 1fr */
+    /* grid-column-gap: 10px; */
+    /* grid column gap is to provide gap b/w columns */
+    /* grid-template-rows: 1fr 2fr; */
+    grid-row-gap: 10px;
+    grid-gap: 10px;
+}
+.col{
+    /* height: 200px; */
+    background-color: rgb(228, 174, 228);
+    border: 1px solid black;
+}
+.row .col:nth-child(1){
+    background-color: aquamarine;
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+.row .col:nth-child(4){
+    background-color: bisque;
+    /* grid-column-start: 2;
+    grid-column-end: 4; */
+}
+.row .col:nth-child(2){
+   background-color: grey;
+}

@@ -1,0 +1,32 @@
+.table{
+    width: 100%;
+    height: 200px;
+    border: 2px solid black;
+    background-color: black;
+}
+
+.box{
+    width: 5%;
+    height: 70px;
+    border: 1px solid black;
+    float: left;
+    /* float: left is given to have all the boxes from left to right */
+    margin-left:1%;
+    margin-top: 3%;
+
+}
+.box1{
+    background-color: rgb(82, 82, 83);
+}
+.box2{
+    background-color: rgb(46, 67, 45);
+}
+.box3{
+    background-color: rgb(5, 76, 2);
+}
+.box4{
+    background-color: rgb(7, 146, 42);
+}
+.box5{
+    background-color: rgb(163, 161, 161);
+}

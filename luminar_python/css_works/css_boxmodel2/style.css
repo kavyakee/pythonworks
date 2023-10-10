@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+
+}
+.box{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(190, 208, 32);
+    border: 1px solid black;
+
+}
+/* if we want to place the box to left side set margin-right:auto */
+.box-one{
+    margin-right: auto;
+}
+/* if we want to place the box to centre set margin-left & margin-right auto */
+.box-two{
+    margin-left: auto;
+    margin-right: auto;
+}
+/* if we want to place the box to right side set margin-left:auto  */
+.box-three{
+    margin-left: auto;
+}

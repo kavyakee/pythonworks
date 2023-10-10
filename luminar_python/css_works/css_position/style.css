@@ -1,0 +1,42 @@
+/* css positions are absolute,relative,fixed,sticky */
+.row{
+    width: 80%;
+    height: 600px;
+    background-color: azure;
+    border: 1px solid rgb(167, 129, 202);
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+.col{
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+}
+.row .col:nth-child(1){
+    background-color: brown;
+    position: relative;
+    left: 80%;
+    top: 5%;
+}
+.row .col:nth-child(2){
+    background-color: aquamarine;
+    position: relative;
+    left: 10%;
+    top: 70%;
+}
+.fixed{
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    position: fixed;
+    left: 70%;
+    top: 40px;
+}
+.sticky{
+    width: 200px;
+    height: 100px;
+    background-color:yellowgreen;
+    position: sticky;
+    top: 20px;
+}

@@ -1,0 +1,58 @@
+ /*basic selector    tagname,class,id */
+/* tag selector can be used by tags*/
+/* id selector by # */
+/* class selector by . */
+/* tag selector */
+
+body{
+       background-color: #b082ba;
+}
+h1{
+    color: #302f2f
+}
+/* id selector */
+#head_two{
+    color: black;
+}
+/* class selector */
+.list-item{
+    color:beige;
+    text-decoration: underline;
+    /* text decorations are underline,overline,line through */
+    /* text-decoration-color: aqua; */
+}
+.item-odd{
+    text-decoration-color: aquamarine;
+}
+.main-head{
+    text-align: center;
+    font-style: italic;
+    font-size: xx-large;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+.items h1{
+    color: #c5c73e;
+    font-size: x-large;
+}
+/* .c1{
+    text-decoration: underline;
+}
+.c2{
+    text-decoration: overline;
+}
+.c3{
+    text-decoration: line-through;
+} */
+.items h1:nth-child(1){
+    text-decoration: underline;
+}
+.items h1:nth-child(2){
+ text-decoration: overline;
+}
+.items h1:nth-child(3){
+    text-decoration: line-through;
+}
+.items h1:nth-child(4){
+    text-decoration: line-through;
+}

@@ -1,0 +1,22 @@
+/*  margin is the outside of the border on right,top,left & bottom     margin left margin top margin left margin bottom */
+/* padding inside the border */
+body{
+    margin: 0;
+ 
+}
+.box{
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
+    border: 1px solid black;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.box-one{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(203, 14, 181);
+    border: 1px solid black;
+    margin-left: 200px;
+    margin-top: 100px;
+}

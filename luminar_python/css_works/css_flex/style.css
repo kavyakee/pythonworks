@@ -1,0 +1,38 @@
+.row{
+    width: 80%;
+    height: 400px;
+    background-color: blanchedalmond;
+    border: 1px solid brown;
+    position: absolute;
+    display: flex;
+    
+    /* display should be set as flex to have all the boxes row wise */
+    /* to display horizontally (x-axis) justify-content used*/
+    /* justify-content: flex-start;move to left */
+    /* justify-content: flex-end;  move to right*/
+    /* justify-content: center; to have it in the centre */
+    /* to give space b/w each boxes justify-content can be used  */
+    /* justify-content: space-around; space b/w each box can be provided on both sides but not equally */
+    /* justify-content: space-between; space only be present at the middle */
+    /* justify-content: space-evenly;spaces will be provided equally at left and right as well */
+    /* to display vertically at the base align-items can be used */
+    /* align-items: flex-start; to left */
+    /* align-items: flex-end; to right */
+    /* align-items: center; */
+    
+
+}
+.col{
+    width: 30%;
+    background-color: rgb(163, 192, 96);
+    height: 200px;
+    border: 1px solid brown;
+}
+
+.row .col:nth-child(1){
+    flex: 1;
+    /* flex:1or 2or3.... can be used to increase the width of the box  */
+}
+.row .col:nth-child(2){
+    flex: 1;
+}
